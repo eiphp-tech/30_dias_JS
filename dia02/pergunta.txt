@@ -1,0 +1,28 @@
+🚀 Desafio - Sistema de Cadastro Simples de Produtos
+
+Contexto Corporativo:
+Sua empresa precisa de uma pequena ferramenta interna para cadastrar, listar e buscar produtos de estoque. 
+Nada visual, apenas o "motor" em JavaScript para provar conceito antes de escalar para algo maior.
+
+Requisitos Técnicos:
+Crie um array chamado produtos para armazenar os cadastros.
+Cada produto deve ser representado por um objeto com as seguintes propriedades:
+id (número)
+nome (string)
+preco (número)
+categoria (string)
+
+Funcionalidades:
+Cadastrar Produto:
+Função cadastrarProduto(produto) que recebe um objeto e adiciona ao array produtos.
+
+Listar Todos os Produtos:
+Função listarProdutos() que percorre o array e imprime cada produto formatado, tipo:
+ID: 1 | Nome: Mouse | Preço: R$99.90 | Categoria: Periférico
+
+Buscar Produto por Nome:
+Função buscarProdutoPorNome(nome) que retorna todos os produtos que contenham 
+o nome pesquisado.
+
+Filtrar por Categoria:
+Função filtrarPorCategoria(categoria) que retorna todos os produtos daquela categoria.
