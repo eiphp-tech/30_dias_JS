@@ -1,0 +1,31 @@
+🚀 Desafio — "Sistema de Agendamento de Reuniões"
+Contextualização corporativa:
+Imagine que você está atuando numa célula de inovação e precisa criar uma ferramenta interna para gerenciar reuniões de diferentes times de projeto.
+
+🎯 Requisitos Funcionais
+Agendar Reunião:
+Criar uma função agendarReuniao(titulo, data, participantes) que adicione uma reunião ao sistema.
+
+Listar Reuniões:
+Criar uma função listarReunioes() que mostre todas as reuniões agendadas, formatando o título, data e participantes.
+
+Editar Participantes:
+Criar uma função editarParticipantes(titulo, novosParticipantes) que permita atualizar a lista de participantes de uma reunião específica.
+
+Cancelar Reunião:
+Criar uma função cancelarReuniao(titulo) que remova a reunião agendada.
+
+🛠️ Especificações Técnicas
+Trabalhe funções e loops adequadamente.
+
+Utilize arrays dentro de objetos para gerenciar os participantes.
+
+A função listarReunioes() deve exibir de forma bonita: 
+exemplo "Sprint Planning - 02/05/2025 - Participantes: Ana, Carlos, Pedro".
+
+🔥 Plus Opcional
+Para quem busca gerar disrupção:
+
+Adicionar validação para não permitir agendar reuniões com mesmo título e mesma data (evitar conflito de agenda).
+
+Criar uma função procurarReuniaoPorData(data) que retorna todas as reuniões marcadas para uma data específica.
